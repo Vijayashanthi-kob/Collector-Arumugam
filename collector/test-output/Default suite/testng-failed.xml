@@ -5,8 +5,14 @@
     <classes>
       <class name="collector.Test_Case">
         <methods>
+          <include name="connect_wallet"/>
+          <include name="transfer_momentabe"/>
           <include name="launch"/>
+          <include name="remove_image"/>
+          <include name="profile"/>
           <include name="copy_the_link"/>
+          <include name="stop_sale"/>
+          <include name="profile_image"/>
         </methods>
       </class> <!-- collector.Test_Case -->
     </classes>

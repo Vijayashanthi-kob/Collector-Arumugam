@@ -8,8 +8,8 @@ public class locators {
 	public static By login_button=By.xpath("//*[@id=\"__next\"]/div/div/div[2]/form/div/div[4]/button");
     
 	//profile page
-	public static By menu_button=By.xpath("/html/body/div/div/div/div/div[1]/div[2]/nav/div/a/div/div/button");
-    public static By acc_menu=By.xpath("/html/body/div/div/div/div/div[1]/div[2]/nav/div/a/div/div[2]/div/a[1]");
+	public static By menu_button=By.xpath("//*[@id=\"headlessui-menu-button-11\"]");
+    public static By acc_menu=By.xpath("/html/body/div/div/div/div[2]/div[2]/div/div/div[5]/div/a[1]");
     public static By edit_button=By.xpath("//*[@id=\"__next\"]/div/div/div/div[2]/main/div/div/div[2]/div[1]/div/div/button");
     public static By uname=By.xpath("//*[@id=\"__next\"]/div/div/div/div[2]/main/div/div/div[2]/div[1]/div[2]/div[1]/div/input");
     public static By gen_button=By.xpath("//*[@id=\"__next\"]/div/div/div/div[2]/main/div/div/div[2]/div[1]/div[2]/div[1]/div/button");

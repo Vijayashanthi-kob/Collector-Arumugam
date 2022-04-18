@@ -23,17 +23,17 @@ public class Test_Case {
 	@Test(priority=2)
 	public static void profile() throws InterruptedException, IOException
 	{
-		//Collector_Functions.profile_update(0);
+		Collector_Functions.profile_update(0);
 	}
 	@Test(priority=3)
 	public static void profile_image() throws InterruptedException, AWTException
 	{
-		//Collector_Functions.profile_image();
+		Collector_Functions.profile_image();
 	}
 	@Test(priority=4)
 	public static void remove_image() throws InterruptedException
 	{
-		//Collector_Functions.remove_profile();
+		Collector_Functions.remove_profile();
 	}
 	@Test(priority=5)
 	public static void connect_wallet() throws InterruptedException
@@ -46,7 +46,7 @@ public class Test_Case {
 	@Test(priority=6)
 	public static void transfer_momentabe() throws InterruptedException, IOException
 	{
-		//Collector_Functions.Transfer_Momentable(1);
+		Collector_Functions.Transfer_Momentable(1);
 	}
 	
 	@Test(priority=7)
@@ -58,7 +58,7 @@ public class Test_Case {
 	@Test(priority=8)
 	public static void stop_sale() throws InterruptedException
 	{
-		//Collector_Functions.Sale_Stop();
+		Collector_Functions.Sale_Stop();
 		//Collector_Functions.Utility_tab();
 	}
 }
